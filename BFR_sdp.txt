@@ -1,0 +1,21 @@
+1. 4 for loops 
+a loop for:
+reset has bred_today
+move
+bear starve
+any new babies
+
+2. River.place_baby() will add to self.animal and self.population while river.animal_death() will lower and self.animal self.population 
+
+3.Animal collision will happen when two animals collide if the animals are different it will use animal.death()for the fish.
+This calls River.animal_death() which will get rid of the fish.
+Bear.consume() will also be called on 
+
+4.Bear.starve() will be called on if Bear.eaten_today == False
+Bear.starve() will decrease Bear.lives by 1 
+Bear.consume() will increase Bear.lives by 1 as long as it doesnt exceed Bear.max_lives
+
+5. 
+  1.The animals old spot, and where the animal is moving
+
+  2.No Because Aniaml death already updates the tile
